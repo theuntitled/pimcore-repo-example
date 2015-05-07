@@ -1,0 +1,72 @@
+#############
+## Windows detritus
+#############
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
+
+
+#############
+## Package manager
+#############
+node_modules/*
+bower_components/*
+
+# Composer
+vendor/*
+composer.phar
+
+# Setup script
+tmp/*
+
+
+#############
+## Pimcore
+#############
+
+pimcore/*
+plugins/*
+website/var/areas/*
+website/var/assets/*
+website/var/backup/*
+website/var/cache/*
+website/var/classes/*
+website/var/deployment/packages/*
+website/var/email/*
+website/var/log/*
+website/var/plugins/*
+website/var/recyclebin/*
+website/var/search/*
+website/var/system/*
+website/var/tmp/*
+website/var/versions/*
+website/var/webdav/*
+website/var/config/system.xml
+.htaccess
+
+!plugins/.dummy
+!website/var/areas/.dummy
+!website/var/assets/.dummy
+!website/var/backup/.dummy
+!website/var/cache/.dummy
+!website/var/classes/.dummy
+!website/var/deployment/packages/.dummy
+!website/var/email/.dummy
+!website/var/log/.dummy
+!website/var/plugins/.dummy
+!website/var/recyclebin/.dummy
+!website/var/search/.dummy
+!website/var/versions/.dummy
+!website/var/system/.dummy
+!website/var/tmp/.dummy
+!website/var/webdav/.dummy

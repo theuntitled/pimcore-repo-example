@@ -1,0 +1,33 @@
+{
+	"authors": [
+		{
+			"email": "j.fazekas@theuntitled.eu",
+			"name": "Josef Fazekas",
+			"homepage": "https://github.com/theuntitled"
+		}
+	],
+	"license": "MIT",
+	"type": "project",
+	"version": "1.0.0",
+	"description": "Example repo setup for pimcore projects with composer, bower and grunt",
+	"homepage": "https://github.com/theuntitled/pimcore-repo-example",
+	"require": {
+	},
+	"config": {
+		"document-root-path": "."
+	},
+	"scripts": {
+		"pre-install-cmd": [
+			"chmod +x restore.sh",
+			"./restore.sh"
+		],
+		"post-install-cmd": [
+			"npm install",	
+			"bower install"	
+		],
+		"post-update-cmd": [
+			"npm install",	
+			"bower install"
+		]
+	}
+}

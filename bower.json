@@ -1,0 +1,25 @@
+{
+  "name": "pimcore-repo-example",
+  "version": "1.0.0",
+  "homepage": "https://github.com/theuntitled/pimcore-repo-example",
+  "authors": [
+    "Josef Fazekas <j.fazekas@theuntitled.eu>"
+  ],
+  "description": "Example repo setup for pimcore projects with composer, bower and grunt",
+  "keywords": [
+    "pimcore",
+    "vcs"
+  ],
+  "private": true,
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
